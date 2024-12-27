@@ -7,3 +7,5 @@ ___
 ```
 ln -s /path/to/cloned_repo ~/.config/nvim
 ```
+
+to use copilot run `:Copilot setup` to authorize it with github.
