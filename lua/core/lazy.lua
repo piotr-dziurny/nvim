@@ -18,7 +18,7 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
     { import = "core.plugins.utils" }, 
     { import = "core.plugins.ui" },
-    { import = "core.plugins.ui.colorschemes.cyberdream" },
+    { import = "core.plugins.ui.colorschemes.catppuccin" },
 }
 
 require("lazy").setup(plugins, {

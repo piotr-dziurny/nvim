@@ -11,7 +11,7 @@ return {
                 keymap = {
                     -- Disable the built-in mapping, we'll configure it in nvim-cmp.
                     accept = false,
-                    accept_word = '<M-w>',
+                    accept_word = '<M-w>', -- Meta key = ALT
                     accept_line = '<M-l>',
                     next = '<M-]>',
                     prev = '<M-[>',

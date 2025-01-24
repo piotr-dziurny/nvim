@@ -1,6 +1,6 @@
 -- <space> as leader key
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- line numbers
 vim.opt.number = true
@@ -21,7 +21,7 @@ vim.opt.autoread = true
 
 -- show partial commands in bottom-right corner of nvim window
 vim.opt.showcmd = true
-vim.opt.backspace = '2'
+vim.opt.backspace = "2"
 
 -- use system clipboard by default
 vim.opt.clipboard = "unnamedplus"
