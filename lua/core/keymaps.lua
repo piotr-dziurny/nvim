@@ -9,3 +9,10 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- keep visual mode after indenting
 vim.keymap.set('v', '>', '>gv', { desc = 'Indent and reselect' })
 vim.keymap.set('v', '<', '<gv', { desc = 'Un-indent and reselect' })
+
+-- every yank saves to system clipboard (ssh supported)
+vim.keymap.set({'n', 'v'}, 'y', '"+y')
+vim.keymap.set('n', 'yy', '"+yy')
+
+-- pasting from system clipboard as well 
+vim.keymap.set({'n', 'v'}, 'p', '"+p')

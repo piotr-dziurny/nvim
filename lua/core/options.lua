@@ -24,14 +24,13 @@ vim.opt.showcmd = true
 vim.opt.backspace = "2"
 
 -- use system clipboard by default
-vim.opt.clipboard = "unnamedplus"
+-- vim.opt.clipboard = "unnamedplus"
 
 -- always show tabs
 vim.opt.showtabline = 1
 
 -- dont create swap files
 vim.opt.swapfile = false
-
 
 -- treat words with "-" as a single word
 vim.opt.iskeyword:append "-"
