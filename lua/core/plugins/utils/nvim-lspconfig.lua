@@ -15,5 +15,19 @@ return {
         }
       }
     })
+
+    -- go
+    lspconfig.gopls.setup({
+      capabilities = capabilities,
+      settings = {
+        gopls = {
+          analyses = {
+            unusedparams = true
+          },
+          staticcheck = true,
+          gofumpt = true, -- code formatter
+        },
+      },
+    })
   end,
 }

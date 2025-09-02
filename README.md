@@ -1,6 +1,6 @@
 ### nvim/
 ___
-> Requires nevim 0.10+ for [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) to work
+> Requires nevim 0.11+ to work with all plugins
 
 * clone the repo
 * create symlink to neovim config path:
