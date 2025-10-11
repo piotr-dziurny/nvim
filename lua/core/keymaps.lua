@@ -14,5 +14,12 @@ vim.keymap.set('v', '<', '<gv', { desc = 'Un-indent and reselect' })
 vim.keymap.set({'n', 'v'}, 'y', '"+y')
 vim.keymap.set('n', 'yy', '"+yy')
 
--- pasting from system clipboard as well 
+-- every delete saves to system clipboard as well (cut)
+vim.keymap.set({'n', 'v'}, 'd', '"+d')
+vim.keymap.set('n', 'dd', '"+dd')
+
+-- pasting from system clipboard
 vim.keymap.set({'n', 'v'}, 'p', '"+p')
+
+-- diagnostics under cursor
+vim.keymap.set("n", "<leader>dl", vim.diagnostic.open_float, { desc = "Show diagnostics under cursor" })
