@@ -4,7 +4,8 @@ vim.g.maplocalleader = " "
 
 -- line numbers
 vim.opt.number = true
-vim.opt.breakindent = true
+vim.opt.relativenumber = true
+vim.opt.breakindent = true 
 
 -- how new splits should be opened
 vim.opt.splitright = true
@@ -33,7 +34,7 @@ vim.opt.showtabline = 1
 vim.opt.swapfile = false
 
 -- treat words with "-" as a single word
-vim.opt.iskeyword:append "-"
+vim.opt.iskeyword:append("-")
 
 -- tabs and spaces
 vim.opt.tabstop = 2

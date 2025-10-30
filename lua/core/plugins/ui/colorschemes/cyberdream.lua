@@ -4,7 +4,7 @@ return {
    require("cyberdream").setup({
      lazy = false,
      priority = 1000,
---     transparent = true,
+    -- transparent = true,
      italic_comments = true, 
      theme = {
        variant = "default",
