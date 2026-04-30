@@ -23,3 +23,5 @@ vim.keymap.set({'n', 'v'}, 'p', '"+p')
 
 -- diagnostics under cursor
 vim.keymap.set("n", "<leader>dl", vim.diagnostic.open_float, { desc = "Show diagnostics under cursor" })
+vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition" })
+vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { desc = "Go to declaration" })
