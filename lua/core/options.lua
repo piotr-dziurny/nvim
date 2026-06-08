@@ -2,6 +2,9 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+-- enable 24-bit RGB colors
+vim.opt.termguicolors = true
+
 -- line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
